@@ -1,6 +1,8 @@
 ### Date created
 Project Created 5 November 2020
+
 README Created 5 November 2020
+
 README Last Update 5 November 2020
 
 ### Project Title
@@ -11,10 +13,11 @@ This project will breakdown the commonly used statistics for three bikeshare pro
 
 ### Files used
 bikeshare.py
+
 .gitignore.md to ignore raw data files:
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv,
+new_york_city.csv,
+washington.csv,
 
 ### Credits
 The raw data and base coding was supplied by Udacity.com
