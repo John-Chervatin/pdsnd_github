@@ -161,6 +161,7 @@ def user_stats(df):
 
 def raw_data(df):
     """Allows user to request to see raw data for n rows"""
+    start_time = time.time()
 
     print('Would you like to see any of the underlying raw data? Enter yes or no.\n')
     raw_data = input()
@@ -180,6 +181,9 @@ def raw_data(df):
             break
 
         print(df.head(rows))
+
+    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('-'*40)
 
 
 def main():
