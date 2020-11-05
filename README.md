@@ -3,7 +3,7 @@ Project Created 5 November 2020
 README Created 5 November 2020
 
 ### Project Title
-Bikeshare Stats  
+US Bikeshare Stats  
 
 ### Description
 This project will breakdown the commonly used statistics for three bikeshare programs in Chicago, New York City and Washington
