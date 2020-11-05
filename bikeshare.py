@@ -120,7 +120,7 @@ def trip_duration_stats(df):
     total_travel = df['Trip Duration'].sum()
     print('the total travel time taken over your month in {} is {} minutes'.format(city,total_travel))
 
-    mean_travel = df['Trip Duration'].mean(axis=0).round(2)
+    mean_travel = df['Trip Duration'].mean(axis=0)
     print('the average(mean) travel time taken in {} is {} minutes'.format(city,mean_travel))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
