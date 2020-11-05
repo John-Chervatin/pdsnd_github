@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Project Created 5 November 2020
+README Created 5 November 2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Stats  
 
 ### Description
-Describe what your project is about and what it does
+This project will breakdown the commonly used statistics for three bikeshare programs in Chicago, New York City and Washignton
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+The raw data and based coding was supplied by Udacity.com
