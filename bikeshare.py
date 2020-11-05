@@ -27,7 +27,6 @@ def get_filters():
         else:
             print('City not in list, please enter city')
             city = input().lower()
-            print('\n')
 
     print('Please select a month: All, January, February, March, ..., June.')
     global month
