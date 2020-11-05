@@ -167,7 +167,7 @@ def raw_data(df):
     raw_data = input()
     if raw_data.lower() == 'yes':
         print('Please enter the number of rows you would like to see 1-30000?')
-        rows = input()
+        rows = int(input())
 
         while True:
            rows != None
