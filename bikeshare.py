@@ -163,10 +163,10 @@ def user_stats(df):
 def raw_data(df):
     """Allows user to request to see raw data for n rows"""
 
-    print('Would you like to see the raw data? Enter yes or no.\n')
+    print('Would you like to see any of the underlying raw data? Enter yes or no.\n')
     raw_data = input()
     if raw_data.lower() == 'yes':
-        print('Enter the number of rows you would like to see 1-30000?')
+        print('Please enter the number of rows you would like to see 1-30000?')
         rows = input()
 
         while True:
@@ -174,7 +174,7 @@ def raw_data(df):
            try:
             int(rows)
            except:
-            print('Plese enter a number?')
+            print('Incorrect input. Please enter a number?')
             rows = int(input())
            else:
             int(rows)
